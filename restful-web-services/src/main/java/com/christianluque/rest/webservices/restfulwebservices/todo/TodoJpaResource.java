@@ -20,8 +20,8 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 @CrossOrigin(origins = "http://localhost:4200")
 public class TodoJpaResource {
 
-    @Autowired
-    private TodoHardcodedService todoService;
+    /*@Autowired
+    private TodoHardcodedService todoService;*/
 
     @Autowired
     private TodoJpaRepository todoJpaRepository;
